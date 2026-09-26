@@ -1,12 +1,96 @@
-# React + Vite
+# 🌌 3D Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **3D developer portfolio** built with React and Three.js.
 
-Currently, two official plugins are available:
+The portfolio combines a dark futuristic interface with an interactive 3D workspace, animated particles, dynamic lighting, and smooth UI sections to create an immersive experience for showcasing development projects and experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 **[View Live Portfolio](YOUR_DEPLOYMENT_LINK)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🎮 Interactive 3D environment
+- 🖥️ 3D developer workspace
+- 💡 Dynamic 3D lighting
+- ✨ Animated particle effects
+- 🎨 Modern dark-themed UI
+- 📱 Responsive design
+- ⚡ Smooth animations and transitions
+- 🧩 Component-based React architecture
+- 💻 Projects / Work section
+- 👨‍💻 Experience section
+- 🛠️ Skills and technologies section
+- 💬 Testimonials section
+- 📩 Contact section
+- 🚀 Optimized Vite development environment
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+
+### 3D & Animation
+
+- Three.js
+- React Three Fiber
+- React Three Drei
+
+### Development Tools
+
+- Vite
+- ESLint
+- Git
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+3D_Portfolio/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   │
+│   │   ├── HeroModels/
+│   │   │   ├── HeroExperience.jsx
+│   │   │   ├── HeroLights.jsx
+│   │   │   ├── Particles.jsx
+│   │   │   └── Room.jsx
+│   │   │
+│   │   ├── Models/
+│   │   │   ├── AnimatedCounter.jsx
+│   │   │   ├── Button.jsx
+│   │   │   ├── GlowCard.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── TitleHeader.jsx
+│   │   │
+│   │   └── TechLogos/
+│   │
+│   ├── constants/
+│   │
+│   ├── sections/
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .env
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
